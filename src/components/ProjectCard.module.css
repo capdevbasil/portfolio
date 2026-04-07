@@ -1,0 +1,52 @@
+.card {
+  padding: var(--space-lg);
+  border: 1px solid var(--color-bg-alt);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-md);
+}
+
+.name {
+  font-size: var(--text-xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.duration {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  margin-bottom: var(--space-sm);
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.techBadge {
+  background: var(--color-accent);
+  color: var(--color-bg);
+  padding: 2px var(--space-sm);
+  border-radius: var(--border-radius);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.accomplishments {
+  list-style: disc;
+  padding-left: var(--space-lg);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.accomplishments li {
+  margin-bottom: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: var(--space-md);
+  }
+}

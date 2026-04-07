@@ -1,0 +1,76 @@
+.section {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+}
+
+.title {
+  font-size: var(--text-xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  text-decoration: none;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--color-highlight);
+  outline-offset: 2px;
+}
+
+.email {
+  background: #EA4335;
+  color: #ffffff;
+}
+
+.phone {
+  background: #34A853;
+  color: #ffffff;
+}
+
+.github {
+  background: #333333;
+  color: #ffffff;
+}
+
+.linkedin {
+  background: #0A66C2;
+  color: #ffffff;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #ffffff;
+}
+
+.facebook {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.whatsapp {
+  background: #25D366;
+  color: #ffffff;
+}

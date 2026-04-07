@@ -1,0 +1,39 @@
+.hero {
+  text-align: center;
+  padding: var(--space-3xl) var(--space-lg);
+}
+
+.name {
+  font-size: var(--text-4xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.title {
+  font-size: var(--text-2xl);
+  color: var(--color-text-light);
+  font-weight: 400;
+  margin-bottom: var(--space-lg);
+}
+
+.summary {
+  font-size: var(--text-lg);
+  color: var(--color-text-light);
+  max-width: 640px;
+  margin: 0 auto var(--space-xl);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .name {
+    font-size: var(--text-3xl);
+  }
+
+  .title {
+    font-size: var(--text-xl);
+  }
+}
